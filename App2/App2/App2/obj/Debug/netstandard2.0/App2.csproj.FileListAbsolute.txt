@@ -1,0 +1,13 @@
+C:\Users\Alex An\source\repos\App2\App2\App2\bin\Debug\netstandard2.0\App2.deps.json
+C:\Users\Alex An\source\repos\App2\App2\App2\bin\Debug\netstandard2.0\App2.dll
+C:\Users\Alex An\source\repos\App2\App2\App2\bin\Debug\netstandard2.0\ref\App2.dll
+C:\Users\Alex An\source\repos\App2\App2\App2\bin\Debug\netstandard2.0\App2.pdb
+C:\Users\Alex An\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\App2.csprojAssemblyReference.cache
+C:\Users\Alex An\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Alex An\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Alex An\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\App2.AssemblyInfoInputs.cache
+C:\Users\Alex An\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\App2.AssemblyInfo.cs
+C:\Users\Alex An\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Alex An\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\App2.dll
+C:\Users\Alex An\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\ref\App2.dll
+C:\Users\Alex An\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\App2.pdb

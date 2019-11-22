@@ -1,0 +1,49 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Alex An\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Alex An\\source\\repos\\App2\\App2\\ZebraSDK\\ZebraSDK.csproj",
+      "projectName": "ZebraSDK",
+      "projectPath": "C:\\Users\\Alex An\\source\\repos\\App2\\App2\\ZebraSDK\\ZebraSDK.csproj",
+      "packagesPath": "C:\\Users\\Alex An\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alex An\\source\\repos\\App2\\App2\\ZebraSDK\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Alex An\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {}
+    }
+  }
+}

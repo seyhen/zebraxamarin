@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ConnectionHelpDs2278View">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1.  If previously paired, use Bluetooth Settings to unpair the DS2278." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LUO-vj-zRE">
+                    <rect key="frame" x="15" y="15" width="345" height="45.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2.  Scan the &quot;Reset Factory Defaults&quot; barcode below:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4oS-pN-wEO">
+                    <rect key="frame" x="15" y="80.5" width="345" height="45.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ciK-pM-Scq">
+                    <rect key="frame" x="58" y="141" width="259" height="76"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="76" id="rzA-4O-oiQ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="3.  Scan the &quot;SSI BT LE&quot; barcode below to pair:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNm-us-aMh">
+                    <rect key="frame" x="15" y="237" width="345" height="45.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D2P-Rg-hIa">
+                    <rect key="frame" x="58" y="297.5" width="259" height="76"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="76" id="9zn-bt-gg4"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="4.  Enable Bluetooth on the device." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iWY-Hz-DvR">
+                    <rect key="frame" x="15" y="393.5" width="345" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="6.  Tap the DS2278 to initiate pairing." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eha-kC-ghv">
+                    <rect key="frame" x="15" y="525" width="345" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="7.  Tap the &quot;Pair&quot; button when the &quot;Bluetooth Pairing Request&quot; prompt appears." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roS-3T-6rQ">
+                    <rect key="frame" x="15" y="568" width="352" height="73"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="5.  Go to the &quot;Zebra Scanner Control&quot; app's &quot;Connect&quot; screen and wait for the DS2278 to appear in the list." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVT-cZ-3ar">
+                    <rect key="frame" x="15" y="436.5" width="345" height="68.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="iWY-Hz-DvR" firstAttribute="top" secondItem="D2P-Rg-hIa" secondAttribute="bottom" constant="20" id="2KG-Fu-PGG"/>
+                <constraint firstAttribute="trailing" secondItem="ZNm-us-aMh" secondAttribute="trailing" constant="15" id="3ak-m9-ZGW"/>
+                <constraint firstAttribute="trailing" secondItem="LUO-vj-zRE" secondAttribute="trailing" constant="15" id="5gi-Kg-nWS"/>
+                <constraint firstItem="ZNm-us-aMh" firstAttribute="top" secondItem="ciK-pM-Scq" secondAttribute="bottom" constant="20" id="6sm-AC-ccy"/>
+                <constraint firstAttribute="bottom" secondItem="roS-3T-6rQ" secondAttribute="bottom" constant="15" id="9L0-sC-Fge"/>
+                <constraint firstItem="iWY-Hz-DvR" firstAttribute="top" secondItem="D2P-Rg-hIa" secondAttribute="bottom" constant="20" id="9ll-WF-4F6"/>
+                <constraint firstItem="NVT-cZ-3ar" firstAttribute="top" secondItem="iWY-Hz-DvR" secondAttribute="bottom" constant="20" id="Fsn-bO-WYV"/>
+                <constraint firstItem="D2P-Rg-hIa" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="G4w-hb-6ez"/>
+                <constraint firstItem="NVT-cZ-3ar" firstAttribute="top" secondItem="iWY-Hz-DvR" secondAttribute="bottom" constant="20" id="JEa-J6-MVg"/>
+                <constraint firstItem="Eha-kC-ghv" firstAttribute="top" secondItem="NVT-cZ-3ar" secondAttribute="bottom" constant="20" id="K7E-zO-jPt"/>
+                <constraint firstAttribute="trailing" secondItem="Eha-kC-ghv" secondAttribute="trailing" constant="15" id="Ksh-97-9pp"/>
+                <constraint firstItem="Eha-kC-ghv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="M05-E4-b2U"/>
+                <constraint firstItem="4oS-pN-wEO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="NBe-zU-Ggb"/>
+                <constraint firstItem="ZNm-us-aMh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="Pw9-he-NUR"/>
+                <constraint firstItem="D2P-Rg-hIa" firstAttribute="top" secondItem="ZNm-us-aMh" secondAttribute="bottom" constant="15" id="Q5U-Al-dIC"/>
+                <constraint firstItem="ZNm-us-aMh" firstAttribute="top" secondItem="ciK-pM-Scq" secondAttribute="bottom" constant="20" id="RIY-RG-Lmn"/>
+                <constraint firstItem="Eha-kC-ghv" firstAttribute="top" secondItem="NVT-cZ-3ar" secondAttribute="bottom" constant="20" id="RZD-2U-Hoc"/>
+                <constraint firstItem="D2P-Rg-hIa" firstAttribute="width" secondItem="ZNm-us-aMh" secondAttribute="width" multiplier="0.75" id="S0d-sl-h5F"/>
+                <constraint firstAttribute="trailing" secondItem="NVT-cZ-3ar" secondAttribute="trailing" constant="15" id="Ufb-gl-kgm"/>
+                <constraint firstItem="ciK-pM-Scq" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="WB6-It-hWD"/>
+                <constraint firstItem="NVT-cZ-3ar" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="WYp-Tf-zv9"/>
+                <constraint firstAttribute="trailing" secondItem="iWY-Hz-DvR" secondAttribute="trailing" constant="15" id="XSr-1Q-mFx"/>
+                <constraint firstItem="ciK-pM-Scq" firstAttribute="top" secondItem="4oS-pN-wEO" secondAttribute="bottom" constant="15" id="YqH-SM-5j5"/>
+                <constraint firstAttribute="trailing" secondItem="roS-3T-6rQ" secondAttribute="trailing" constant="15" id="ZIx-Qs-cr1"/>
+                <constraint firstItem="iWY-Hz-DvR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="c4Q-nL-Qmf"/>
+                <constraint firstItem="roS-3T-6rQ" firstAttribute="top" secondItem="Eha-kC-ghv" secondAttribute="bottom" constant="20" id="dK4-T4-w4x"/>
+                <constraint firstItem="D2P-Rg-hIa" firstAttribute="top" secondItem="ZNm-us-aMh" secondAttribute="bottom" constant="15" id="daX-BJ-qPD"/>
+                <constraint firstItem="LUO-vj-zRE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="h4R-Oq-p49"/>
+                <constraint firstAttribute="trailing" secondItem="4oS-pN-wEO" secondAttribute="trailing" constant="15" id="iT4-oe-3Hd"/>
+                <constraint firstItem="roS-3T-6rQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="mFa-AH-yEW"/>
+                <constraint firstItem="4oS-pN-wEO" firstAttribute="top" secondItem="LUO-vj-zRE" secondAttribute="bottom" constant="20" id="mig-UP-7wQ"/>
+                <constraint firstItem="LUO-vj-zRE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="owW-s5-ccW"/>
+                <constraint firstItem="4oS-pN-wEO" firstAttribute="top" secondItem="LUO-vj-zRE" secondAttribute="bottom" constant="20" id="xME-Y0-UDw"/>
+                <constraint firstItem="roS-3T-6rQ" firstAttribute="top" secondItem="Eha-kC-ghv" secondAttribute="bottom" constant="20" id="xTj-L4-T0V"/>
+                <constraint firstItem="ciK-pM-Scq" firstAttribute="width" secondItem="4oS-pN-wEO" secondAttribute="width" multiplier="0.75" id="xfj-NV-3BK"/>
+                <constraint firstItem="ciK-pM-Scq" firstAttribute="top" secondItem="4oS-pN-wEO" secondAttribute="bottom" constant="15" id="z3E-bv-8Jh"/>
+            </constraints>
+            <connections>
+                <outlet property="btleSsiBarcodeImage" destination="D2P-Rg-hIa" id="fPU-hN-AN9"/>
+                <outlet property="resetFactoryDefaultsBarcodeImage" destination="ciK-pM-Scq" id="mTr-2h-q3f"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

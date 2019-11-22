@@ -1,0 +1,5 @@
+C:\Users\Alex An\source\repos\App2\App2\ZebraSDK\bin\Debug\ZebraSdkXamarinIos.dll
+C:\Users\Alex An\source\repos\App2\App2\ZebraSDK\bin\Debug\ZebraSdkXamarinIos.pdb
+C:\Users\Alex An\source\repos\App2\App2\ZebraSDK\obj\Debug\ZebraSdkXamarinIos.dll
+C:\Users\Alex An\source\repos\App2\App2\ZebraSDK\obj\Debug\ZebraSdkXamarinIos.pdb
+C:\Users\Alex An\source\repos\App2\App2\ZebraSDK\obj\Debug\ZebraSDK.csprojAssemblyReference.cache
