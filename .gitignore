@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/App2/.vs/App2/v16/Server/sqlite3
+/App2/App2/App2.iOS/bin/iPhone/Debug/App2.iOS.app/LaunchScreen.storyboardc
+/App2/App2/App2.iOS/bin/iPhone/Debug/App2.iOS.app
+/App2/App2/App2.iOS/bin/iPhone/Debug
+/App2/App2/App2.iOS/obj

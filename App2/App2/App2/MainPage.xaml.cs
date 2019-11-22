@@ -18,5 +18,15 @@ namespace App2
             InitializeComponent();
 
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            ZebraAPI.Current.Init();
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            ZebraAPI.Current.GetScannerList();
+        }
     }
 }

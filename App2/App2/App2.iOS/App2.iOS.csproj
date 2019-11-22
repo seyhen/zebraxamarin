@@ -68,6 +68,8 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="ZebraScanner\ScannerExtensions.cs" />
+    <Compile Include="ZebraScanner\ZebraScannerConnect.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />

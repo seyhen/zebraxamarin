@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using App2.iOS.ZebraScanner;
 using Foundation;
 using UIKit;
 using Zebra;
@@ -21,32 +21,17 @@ namespace App2.iOS
         //
         // You have 17 seconds to return from this method, or iOS will terminate your application.
         //
-        private (SbtResult, ScannerInfo[]) getScanners(Func<IntPtr, (SbtResult, IntPtr)> action)
-        {
-            var availableReaders = new NSMutableArray();
-            var availableHandle = availableReaders.Handle;
-
-            (SbtResult result, IntPtr handle) = action(availableHandle);
-
-            var scanners = NSArray.ArrayFromHandle<ScannerInfo>(handle);
-
-            return (result, scanners);
-        }
 
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
-            System.IntPtr test = default(System.IntPtr);
-
-            SbtSdkApiWrapper t = (SbtSdkApiWrapper)Zebra.SbtSdkFactory.CreateInstance();
-            var i = t.EnableAvailableScannersDetection(true);
-            var m = getScanners(() => t.GetAvailableScannersList);
-            var p = t.GetActiveScannersList(ref test);
-
+            ZebraAPI.Current = new ZebraScannerConnect();
 
             return base.FinishedLaunching(app, options);
         }
     }
+
+
 }

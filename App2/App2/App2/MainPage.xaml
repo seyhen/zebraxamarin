@@ -11,6 +11,8 @@
         <Label Text="We test!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Button Text="Connect" Clicked="Button_Clicked"></Button>
+        <Button Text="Get List of Scanners" Clicked="Button_Clicked_1"></Button>
     </StackLayout>
 
 </ContentPage>
