@@ -21,6 +21,7 @@ namespace App2.iOS.ZebraScanner
         {
             SbtSdkApi = (SbtSdkApiWrapper)Zebra.SbtSdkFactory.CreateInstance();
             SbtSdkApi.SbtSetDelegate(new MyDelegate());
+            SbtSdkApi.SetOperationalMode(OperationalMode.Mfi);
             
             var bob = SbtSdkApi.EnableAvailableScannersDetection(true);
             
